@@ -48,7 +48,7 @@
     @apply text-sm text-scalara-muted-foreground;
   }
   .email-content a {
-    @apply text-blue-400 underline hover: text-blue-300;
+    @apply text-blue-400 underline hover:text-blue-300;
   }
   .email-content img {
     max-width: 100%;

@@ -818,7 +818,7 @@ async function main() {
         data: {
             email: email,
             name: 'Administrator',
-            password: hashPassword('${ADMIN_PASSWORD}'),
+            passwordHash: hashPassword('${ADMIN_PASSWORD}'),
             imapHost: '${MAIL_HOSTNAME}',
             imapPort: 993,
             smtpHost: '${MAIL_HOSTNAME}',
